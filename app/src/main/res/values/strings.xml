@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">SpinnerExample</string>
+
+    <string name="state_prompt">Choose a state</string>
+    <string name="job_title">Job Title:</string>
+    <string name="org_name">Organization:</string>
+    <string name="jobs_list">US Government Jobs</string>
+    <string name="hello_world">hello</string>
+    <string name="location">Locations:</string>
+    <string name="search">Search for Jobs</string>
+    <string name="level">Choose level</string>
+    <string name="main_title">Search for Government Jobs in the USA</string>
+
+    <string name="min_salary">Minimum Salary</string>
+    <string name="max_salary">Maximum Salary</string>
+    <string-array name="states_array">
+        <item>AK</item>
+        <item>AL</item>
+        <item>AR</item>
+        <item>AZ</item>
+        <item>CA</item>
+        <item>CO</item>
+        <item>CT</item>
+        <item>DC</item>
+        <item>DE</item>
+        <item>FL</item>
+        <item>GA</item>
+        <item>HI</item>
+        <item>ID</item>
+        <item>IL</item>
+        <item>IN</item>
+        <item>IA</item>
+        <item>KS</item>
+        <item>KY</item>
+        <item>LA</item>
+        <item>ME</item>
+        <item>MD</item>
+        <item>MA</item>
+        <item>MI</item>
+        <item>MN</item>
+        <item>MS</item>
+        <item>MO</item>
+        <item>MT</item>
+        <item>NE</item>
+        <item>NV</item>
+        <item>NH</item>
+        <item>NJ</item>
+        <item>NM</item>
+        <item>NY</item>
+        <item>NC</item>
+        <item>ND</item>
+        <item>OH</item>
+        <item>OK</item>
+        <item>OR</item>
+        <item>PA</item>
+        <item>RI</item>
+        <item>SC</item>
+        <item>SD</item>
+        <item>TN</item>
+        <item>TX</item>
+        <item>UT</item>
+        <item>VT</item>
+        <item>VA</item>
+        <item>WA</item>
+        <item>WV</item>
+        <item>WI</item>
+        <item>WY</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--Layout for each row of the list-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/jobs_list"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary">
+
+    </TextView>
+
+    <ListView
+            android:id="@android:id/list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+
+</LinearLayout>

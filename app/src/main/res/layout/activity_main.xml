@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/main_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textColor="@color/colorPrimary"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"/>
+
+    <Spinner
+        android:id="@+id/spinnerState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/states_array"
+        android:prompt="@string/state_prompt"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/spinnerLevel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:prompt="@string/level"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_term"
+        android:hint="e.g. nursing"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:layout_gravity="center" />
+
+</LinearLayout>
