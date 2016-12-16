@@ -1,5 +1,9 @@
 # GovernmentJobsAPI
 
+An Android app that fetches job data from a web service.
+
+http://search.digitalgov.gov/developer/jobs.html
+
 ![pastedgraphic-1](https://cloud.githubusercontent.com/assets/8931809/21246678/cd30892e-c2ef-11e6-9a05-99b9792d00d6.png)
 
 
